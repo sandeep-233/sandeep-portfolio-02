@@ -77,38 +77,38 @@ export const Project = () => {
         <div className={ `${display} flex-wrap justify-evenly glassmorphism p-3 gap-6 h-[55vh] overflow-y-auto w-full` } >
           <OtherProjectCard
             Image={otherProject1}
-            link1={'https://github.com/sandeep-233/Edu-support'}
-            link2={''}
+            link1={'https://github.com/sandeep-233/razorpay-clone'}
+            link2={'https://razorpay-clone-deployment.netlify.app/'}
             title={'Razorpay Clone'}
             stacks= {[html, css, tailwind, javascript] }
           />
           <OtherProjectCard
             Image={otherProject2}
-            link={'https://github.com/sandeep-233/Edu-support'}
-            link2={''}
+            link={'https://github.com/sandeep-233/space-tourism-multipage-website.github.io'}
+            link2={'https://space-tourism-multipage-website-github-io.vercel.app/'}
             title={'Space Tourism'}
             stacks= {[html, css, tailwind] }
           />
           <OtherProjectCard
             Image={otherProject3}
-            link={'https://github.com/sandeep-233/Edu-support'}
-            link2={''}
+            link={'https://github.com/sandeep-233/Task-management'}
+            link2={'https://task-management-eight-iota.vercel.app/'}
             title={'Time-Management Component'}
             stacks= {[react, nodejs, tailwind, html, css] }
           />
           <OtherProjectCard
             Image={otherProject4}
-            link={'https://github.com/sandeep-233/Edu-support'}
-            link2={''}
+            link={'https://github.com/sandeep-233/My-assessment-component.github.io'}
+            link2={'https://assessment-component.vercel.app/'}
             title={'Assesment component'}
             stacks= {[react, nodejs, tailwind, html, css] }
           />
           <OtherProjectCard
             Image={otherProject5}
-            link={'https://github.com/sandeep-233/Edu-support'}
-            link2={''}
+            link={'https://github.com/sandeep-233/dev-detective'}
+            link2={'https://dev-detective-theta.vercel.app/'}
             title={'Dev-detective'}
-            stacks= {[react, nodejs, tailwind, html, css, javascript] }
+            stacks= {[html, css, javascript] }
           />
         </div>
     </div>

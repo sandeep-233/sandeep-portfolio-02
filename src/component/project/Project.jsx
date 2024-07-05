@@ -4,6 +4,7 @@ import { MdExpandLess, MdKeyboardArrowDown } from "react-icons/md";
 import { ProjectCard } from './ProjectCard'
 import image1 from '../../assets/projects/eduSupport.png'
 import image2 from '../../assets/projects/bookStore.png'
+import image3 from '../../assets/projects/college management.png'
 
 import { OtherProjectCard } from './OtherProjectCard'
 import otherProject1 from '../../assets/projects/other Projects/razorpayClone.png'
@@ -50,14 +51,15 @@ export const Project = () => {
              stacks= {[mongodb, express, react, nodejs, tailwind] }
             />
             <ProjectCard
-             image={image2} 
-             title='BookStore' 
-             desc='It is a MERN stack project, Utilizing Firebase for authentication,
-             this platform empowers users to upload and manage books effortlessly. 
-             Users can input book details like image URL, description, PDF link, and category.'
-             link1='https://github.com/sandeep-233/book-store' 
-             link2='#' 
-             stacks= {[mongodb, express, react, nodejs, tailwind, firebase]}
+             image={image3} 
+             title='College Management Web-Application' 
+             desc='The College Management Web-application is a comprehensive platform 
+             built using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
+             This application facilitates seamless communication and management for a college environment, 
+             catering to the needs of admins, faculty, students, and alumni.'
+             link1='https://github.com/sandeep-233/college-management' 
+             link2='https://college-management-pi.vercel.app/' 
+             stacks= {[mongodb, express, react, nodejs, tailwind]}
             />
         </div>
 
@@ -75,6 +77,13 @@ export const Project = () => {
 
         {/* other projects  */}
         <div className={ `${display} flex-wrap justify-evenly glassmorphism p-3 gap-6 h-[55vh] overflow-y-auto w-full` } >
+          <OtherProjectCard
+            Image={image2}
+            link1={'https://github.com/sandeep-233/book-store'}
+            link2={'#'}
+            title={'BookStore'}
+            stacks= {[mongodb, express, react, nodejs, firebase, tailwind, ] }
+          />
           <OtherProjectCard
             Image={otherProject1}
             link1={'https://github.com/sandeep-233/razorpay-clone'}

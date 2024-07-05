@@ -74,7 +74,7 @@ export const HeroSection = () => {
 
       {/* porfile card */}
       <div className='mt-3 sm:mt-0'>
-        <div className=" max-w-fit glassmorphism rounded-sm">
+        <div className=" max-w-fit glassmorphism rounded-sm relative">
           <div className="flex sm:flex-col items-center p-4">
             <img src={userImg}
              alt="sandeep"

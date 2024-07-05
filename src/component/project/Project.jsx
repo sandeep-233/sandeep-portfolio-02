@@ -4,7 +4,7 @@ import { MdExpandLess, MdKeyboardArrowDown } from "react-icons/md";
 import { ProjectCard } from './ProjectCard'
 import image1 from '../../assets/projects/eduSupport.png'
 import image2 from '../../assets/projects/bookStore.png'
-import image3 from '../../assets/projects/college management.png'
+import image3 from '../../assets/projects/college managemant.png'
 
 import { OtherProjectCard } from './OtherProjectCard'
 import otherProject1 from '../../assets/projects/other Projects/razorpayClone.png'

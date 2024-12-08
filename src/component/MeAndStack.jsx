@@ -38,7 +38,7 @@ export const MeAndStack = () => {
 
                 <div className="flex flex-col gap-2 text-sm">
                     <p>
-                    I am a final year student at University College of Engineering and
+                    I am a 2024 graduate student at University College of Engineering and
                     Technology, Hazaribagh, specializing in web development with a
                     strong focus on the MERN stack. I am also proficient in C++, a
                     primary programming language. With a passion for creating dynamic

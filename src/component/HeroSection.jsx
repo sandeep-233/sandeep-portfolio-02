@@ -5,6 +5,8 @@ import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import resume from '../assets/userAsset/sandeep-cv.pdf'
 
+import Spline from '@splinetool/react-spline'
+
 
 export const HeroSection = () => {
 
@@ -21,7 +23,7 @@ export const HeroSection = () => {
   return (
     <div id='about' className=" flex flex-col sm:flex-row justify-between w-[95%] sm:w-11/12 mt-4 items-center text-center sm:text-start">
 
-      <div className="flex flex-col gap-3 w-full items-center sm:items-start sm:w-[60%]">
+      <div className="flex flex-col gap-3 w-full items-center sm:items-start sm:w-[60%] z-10">
         <div className=" text-[2em]">Greetings!</div>
 
         <div className="flex flex-col sm:flex-row gap-2">
@@ -73,7 +75,7 @@ export const HeroSection = () => {
       </div>
 
       {/* porfile card */}
-      <div className='mt-3 sm:mt-0'>
+      <div className='mt-3 sm:mt-0 z-10'>
         <div className=" max-w-fit glassmorphism rounded-sm relative">
           <div className="flex sm:flex-col items-center p-4">
             <img src={userImg}
@@ -103,6 +105,10 @@ export const HeroSection = () => {
         </div>
       </div>
 
+      <Spline 
+        className=" absolute w-[80%]"
+        scene="https://prod.spline.design/zl9PLlOp7qPBjXI6/scene.splinecode" 
+      />
     </div>
   )
 }

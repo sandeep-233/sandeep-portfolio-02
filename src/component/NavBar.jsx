@@ -10,7 +10,7 @@ export const NavBar = ({mode, setMode}) => {
     }
 
   return (
-    <div className='flex justify-between items-baseline w-11/12 mt-3'>
+    <div className='flex justify-between items-baseline w-11/12 mt-3 z-30'>
         {/* logo */}
         <div className='flex items-baseline'>
             <p>

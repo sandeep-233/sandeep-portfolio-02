@@ -26,6 +26,11 @@ function App() {
   return (
     <BrowserRouter>
       <div id='home' className= {`flex flex-col gap-3 items-center ${bgColor} ${textColor} `} >
+        <div className=" w-[100vw] h-[100vh] z-[100] justify-center items-center bg-black bg-opacity-[0.8] fixed flex">
+          <a href="https://sandeep-portfolio-03.vercel.app/" className=" border-2 rounded-md p-4 border-orange-600 bg-orange-400 hover:scale-95 transition-all">
+            Go to the updated portfolio 
+          </a>
+        </div>
         <NavBar setMode={setMode} mode={mode}/>
         <HeroSection/>
         <Project/>
